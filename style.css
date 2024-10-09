@@ -1,0 +1,68 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(72, 85, 88);
+}
+
+.container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 492px;
+    background-image: url("./assets/tablet.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.466);
+
+}
+
+#title {
+    margin-top: -150px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(215, 196, 166, 0.932), 0 0 hsl(40, 10%, 28%);
+    mix-blend-mode: multiply;
+}
+
+#quote-text {
+
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(215, 196, 166, 0.932), 0 0 hsl(40, 10%, 28%);
+    mix-blend-mode: multiply;
+
+}
+
+#quote-box {
+
+    position: absolute;
+    margin-top: 50px;
+    width: 800px;
+    height: 120px;
+    padding: 10px;
+
+    display: flex;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-size: 2rem;
+    /* Dimensiunea de pornire a fontului */
+}
+
+#author {
+    position: absolute;
+    align-content: end;
+    margin-bottom: -250px;
+    margin-right: -400px;
+    font-size: 1.5rem;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(215, 196, 166, 0.932), 0 0 hsl(40, 10%, 28%);
+    mix-blend-mode: multiply;
+}
